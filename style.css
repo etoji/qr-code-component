@@ -2,10 +2,24 @@ html,
 body {
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+h1 {
+    margin: 24px 0px 0px;
+    font-size: 22px;
+    padding: 0px 8px;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    font-size: 15px;
+    padding: 0px 8px;
+    color: hsl(220, 15%, 55%);
 }
 
 .qr-card {
@@ -13,6 +27,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 32px;
+    padding: 16px;
+    max-width: auto;
+    border-radius: 16px;
 }
 
+.qr-card > * {
+    max-width: 280px;
+    text-align: center;
+}
+
+.qr-img > img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
