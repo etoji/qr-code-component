@@ -9,6 +9,12 @@ body {
     height: 100%;
 }
 
+/* Shadow style */
+
+.qr-card {
+    box-shadow: 0px 0px 48px -36px hsl(218, 44%, 22%);
+}
+
 h1 {
     margin: 24px 0px 0px;
     font-size: 22px;
